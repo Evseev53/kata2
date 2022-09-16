@@ -1,0 +1,6 @@
+.nav-list__link--logo-pink {
+    display: block;
+    background: url("img/logo.svg");
+    width: 97px;
+    height: 51px;
+}

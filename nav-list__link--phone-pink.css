@@ -1,0 +1,7 @@
+.nav-list__link--phone-pink {
+    display: block;
+    background: #FF3E79 url("img/phone.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}

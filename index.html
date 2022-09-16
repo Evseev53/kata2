@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="html">
 <head>
     <meta charset="UTF-8">
     <title>Сервисный центр CPS</title>
-    <link rel="stylesheet" href="header.css.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="nav-list.css">
-    <link rel="stylesheet" href="nav-list__item--burger-pink.css.css">
+    <link rel="stylesheet" href="header__nav-list.css">
+    <link rel="stylesheet" href="nav-list__link--burger-pink.css">
+    <link rel="stylesheet" href="nav-list__link--logo-pink.css">
+    <link rel="stylesheet" href="nav-list__link--phone-pink.css">
+    <link rel="stylesheet" href="nav-list__link--message-pink.css">
+    <link rel="stylesheet" href="nav-list__link--profile-pink.css">
+    <link rel="stylesheet" href="nav-list__link--repair-pink.css">
+    <link rel="stylesheet" href="nav-list__link--search-pink.css">
+    <link rel="stylesheet" href="nav-list--display-none.css">
+    <link rel="stylesheet" href="divider.css">
     <link rel="stylesheet" href="../fonts/stylefonts.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
@@ -13,19 +23,20 @@
 <header class="header">
     <nav class="nav header__nav"> <!-- header__nav для позиционирования блоков -->
         <ul class="nav-list header__nav-list">
-            <li class="nav-list__item nav-list__item--burger-pink"><a href="#">1</a></li>
-            <li class="nav-list__item nav-list__item--logo-pink"></li>
+            <li class="nav-list__item"><a class="nav-list__link nav-list__link--burger-pink" href="#"></a></li>
+            <li class="nav-list__item"><a class="nav-list__link nav-list__link--logo-pink" href="#"></a></li>
             <li class="nav-list__item">
-                <ul class="nav-list">
-                    <li class="nav-list__item nav-list__item--phone-pink"></li>
-                    <li class="nav-list__item nav-list__item--message-pink"></li>
-                    <li class="nav-list__item nav-list__item--profile-pink"></li>
+                <ul class="nav-list nav-list--display-none">
+                    <li class="nav-list__item"><a class="nav-list__link nav-list__link--phone-pink" href="#"></a></li>
+                    <li class="nav-list__item"><a class="nav-list__link nav-list__link--message-pink" href="#"></a></li>
+                    <li class="nav-list__item"><a class="nav-list__link nav-list__link--profile-pink" href="#"></a></li>
                 </ul>
             </li>
             <li>
                 <ul class="nav-list">
-                    <li class="nav-list__item nav-list__item--repair-pink"></li>
-                    <li class="nav-list__item nav-list__item--search-pink"></li>
+                    <li class="nav-list__item"><div class="divider"></div></li>
+                    <li class="nav-list__item"><a class="nav-list__link nav-list__link--repair-pink" href="#"></a></li>
+                    <li class="nav-list__item"><a class="nav-list__link nav-list__link--search-pink" href="#"></a></li></li>
                 </ul>
             </li>
         </ul>
