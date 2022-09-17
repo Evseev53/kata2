@@ -13,3 +13,10 @@
     width: 0;
 }
 
+@media screen and (min-device-width: 1120px){
+    .menu {
+        overflow: visible;
+        flex-wrap: wrap;
+    }
+}
+

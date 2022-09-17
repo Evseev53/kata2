@@ -1,0 +1,10 @@
+.text__read-more {
+    text-decoration: none;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: -0.2px;
+
+    color: #1B1C21;
+}

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="nav-list--display-none.css">
     <link rel="stylesheet" href="nav-list__item--position--right.css">
     <link rel="stylesheet" href="nav-list__item--position--left.css">
+    <link rel="stylesheet" href="nav-list__text.css">
     <link rel="stylesheet" href="divider.css">
     <link rel="stylesheet" href="nav-list__divider.css">
     <link rel="stylesheet" href="shadow.css">
@@ -30,7 +31,10 @@
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="menu__link.css">
     <link rel="stylesheet" href="menu__link--active.css">
+    <link rel="stylesheet" href="menu--bg--blue.css">
     <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="text__read-more.css">
+    <link rel="stylesheet" href="text__read-more-img.css">
     <link rel="stylesheet" href="span.css">
     <link rel="stylesheet" href="logo-image.css">
     <link rel="stylesheet" href="../fonts/stylefonts.css">
@@ -38,7 +42,7 @@
 </head>
 <body class="body">
 <header class="header">
-    <nav class="nav header__nav"> <!-- header__nav для позиционирования блоков -->
+    <nav class="nav header__nav">
         <ul class="nav-list header__nav-list">
             <li class="nav-list__item"><a class="nav-list__link nav-list__link--burger-pink" href="#"></a></li>
             <li class="nav-list__item"><div class="divider nav-list__divider"></div></li>
@@ -66,9 +70,23 @@
         <aside class="aside aside--content-position">
             <div class="aside__divider"></div>
             <h1 class="title">Услуги и сервисы</h1>
+            <ul class="nav-list">
+                <li class="nav-list__item">
+                    <a class="nav-list__text" href="#">
+                        Оставить заявку
+                        <a class="nav-list__link nav-list__link--repair-pink" href="#"></a>
+                    </a>
+                </li>
+                <li class="nav-list__item">
+                    <a class="nav-list__text" href="#">
+                        Статус ремонта
+                        <a class="nav-list__link nav-list__link--search-pink" href="#"></a>
+                    </a>
+                </li>
+            </ul>
         </aside>
     </section>
-    <menu class="menu">
+    <menu class="menu menu--bg--blue">
         <li><a class="menu__link menu__link--active" href="#">Ремонтируемые бренды</a></li>
         <li><a class="menu__link" href="#">Ремонтируемые устройства</a></li>
         <li><a class="menu__link" href="#">Цены на услуги</a></li>
@@ -86,7 +104,7 @@
                     <span class="span"> что подтверждает большое количество постоянных клиентов.
                     Мы гордимся тем, что к нам обращаются по рекомендациям и,
                     в свою очередь, советуют нас родным и близким.</span></p>
-                <a class="text__read-more" href="#">Читать далее</a>
+                <a class="text__read-more" href="#"><img class="text__read-more-img" src="img/readmore.svg">Читать далее</a>
             </div>
         </aside>
         <img class="logo-image" src="img/CPSlogo.png" alt="">

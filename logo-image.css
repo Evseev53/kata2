@@ -1,5 +1,11 @@
 .logo-image {
-    width: auto;
-    height: auto;
     padding: 16px 0 16px 0;
+    width: 100%;
+}
+
+@media screen and (min-device-width: 768px) {
+    .logo-image {
+        min-width: 360px;
+        padding: 16px 25px 16px 0;
+    }
 }
