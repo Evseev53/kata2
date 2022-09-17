@@ -21,9 +21,18 @@
     <link rel="stylesheet" href="divider.css">
     <link rel="stylesheet" href="nav-list__divider.css">
     <link rel="stylesheet" href="shadow.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="section--direction--column.css">
     <link rel="stylesheet" href="aside.css">
+    <link rel="stylesheet" href="aside--content-position.css">
     <link rel="stylesheet" href="aside__divider.css">
     <link rel="stylesheet" href="title.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="menu__link.css">
+    <link rel="stylesheet" href="menu__link--active.css">
+    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="span.css">
+    <link rel="stylesheet" href="logo-image.css">
     <link rel="stylesheet" href="../fonts/stylefonts.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
@@ -54,10 +63,33 @@
 </header>
 <main>
     <section class="section">
-        <aside class="aside">
+        <aside class="aside aside--content-position">
             <div class="aside__divider"></div>
             <h1 class="title">Услуги и сервисы</h1>
         </aside>
+    </section>
+    <menu class="menu">
+        <li><a class="menu__link menu__link--active" href="#">Ремонтируемые бренды</a></li>
+        <li><a class="menu__link" href="#">Ремонтируемые устройства</a></li>
+        <li><a class="menu__link" href="#">Цены на услуги</a></li>
+        <li><a class="menu__link" href="#">Адреса сервисных центров</a></li>
+        <li><a class="menu__link" href="#">Специальные цены</a></li>
+        <li><a class="menu__link" href="#">Отзывы</a></li>
+    </menu>
+    <section class="section section--direction--column">
+        <aside class="aside">
+            <div class="text">
+                <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+                    Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+
+                <p><span class="span">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,</span>
+                    <span class="span"> что подтверждает большое количество постоянных клиентов.
+                    Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                    в свою очередь, советуют нас родным и близким.</span></p>
+                <a class="text__read-more" href="#">Читать далее</a>
+            </div>
+        </aside>
+        <img class="logo-image" src="img/CPSlogo.png" alt="">
     </section>
 </main>
 

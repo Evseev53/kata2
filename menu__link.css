@@ -1,0 +1,18 @@
+.menu__link {
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    color: #7E7E82;
+
+    padding: 8px 20px 8px 20px;
+}
+
+@font-face {
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: 400;
+    src: local("TT Lakes"),
+    url(fonts/TTLakes-Regular.woff) format("woff");
+}

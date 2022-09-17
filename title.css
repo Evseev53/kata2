@@ -1,3 +1,14 @@
 .title {
-    display: inline-block;
+    margin: 0;
+    font-family: "TTLakes-Bold";
+    padding: 0 0 0 20px;
+    font-size: 28px;
+}
+
+@font-face {
+    font-family: "TTLakes-Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: local("TTLakes-Bold"),
+    url(fonts/TTLakes-Bold.woff) format("woff");
 }
