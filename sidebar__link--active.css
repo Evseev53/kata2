@@ -1,3 +1,4 @@
 .sidebar__link--active {
-    border-left: 4px solid #41F6D7;
+    box-shadow: inset 4px 0 #41F6D7;
+    color: #7E7E82;
 }

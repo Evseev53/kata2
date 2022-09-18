@@ -1,0 +1,4 @@
+.sidebar__footer {
+    flex-shrink: 0;
+    padding-left: 24px;
+}

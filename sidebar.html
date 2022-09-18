@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="sidebar.css">
     <link rel="stylesheet" href="sidebar__menu.css">
     <link rel="stylesheet" href="sidebar__header.css">
+    <link rel="stylesheet" href="sidebar__item.css">
     <link rel="stylesheet" href="sidebar__link.css">
     <link rel="stylesheet" href="sidebar__link--active.css">
+    <link rel="stylesheet" href="sidebar__e-mail.css">
+    <link rel="stylesheet" href="sidebar__phone-number.css">
     <link rel="stylesheet" href="nav-list.css">
+    <link rel="stylesheet" href="nav-list__link.css">
     <link rel="stylesheet" href="header__nav-list.css">
     <link rel="stylesheet" href="nav-list__item.css">
     <link rel="stylesheet" href="nav-list__item--position--right.css">
@@ -17,6 +21,15 @@
     <link rel="stylesheet" href="nav-list__link--logo-pink.css">
     <link rel="stylesheet" href="nav-list__link--search-pink.css">
     <link rel="stylesheet" href="nav-list__link--back-pink.css">
+    <link rel="stylesheet" href="sidebar__footer.css">
+    <link rel="stylesheet" href="sidebar__nav-list.css">
+    <link rel="stylesheet" href="nav-list__link--phone-pink.css">
+    <link rel="stylesheet" href="nav-list__link--message-pink.css">
+    <link rel="stylesheet" href="nav-list__link--profile-pink.css">
+    <link rel="stylesheet" href="language.css">
+    <link rel="stylesheet" href="language__link.css">
+    <link rel="stylesheet" href="language__item.css">
+    <link rel="stylesheet" href="language__link--active.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
 <body class="body-sidebar">
@@ -29,15 +42,29 @@
         </ul>
     </header>
     <menu class="sidebar__menu">
-        <li><a class="sidebar__link sidebar__link--active" href="#">Ремонт техники</a></li>
-        <li><a class="sidebar__link" href="#">Услуги и сервисы</a></li>
-        <li><a class="sidebar__link" href="#">Корпоративным клиентам</a></li>
-        <li><a class="sidebar__link" href="#">Продавцам техники</a></li>
-        <li><a class="sidebar__link" href="#">Партнерам</a></li>
-        <li><a class="sidebar__link" href="#">Производителям</a></li>
-        <li><a class="sidebar__link" href="#">Наши сервисные центры</a></li>
-        <li><a class="sidebar__link" href="#">Контакты</a></li>
+        <li class="sidebar__item"><a class="sidebar__link sidebar__link--active" href="#">Ремонт техники</a></li>
+        <li class="sidebar__item"><a class="sidebar__link" href="#">Услуги и сервисы</a></li>
+        <li class="sidebar__item"><a class="sidebar__link" href="#">Корпоративным клиентам</a></li>
+        <li class="sidebar__item"><a class="sidebar__link" href="#">Продавцам техники</a></li>
+        <li class="sidebar__item"><a class="sidebar__link" href="#">Партнерам</a></li>
+        <li class="sidebar__item"><a class="sidebar__link" href="#">Производителям</a></li>
+        <li class="sidebar__item"><a class="sidebar__link" href="#">Наши сервисные центры</a></li>
+        <li class="sidebar__item"><a class="sidebar__link" href="#">Контакты</a></li>
     </menu>
+    <footer class="sidebar__footer">
+        <ul class="nav-list sidebar__nav-list">
+            <li class="nav-list__item"><a class="nav-list__link nav-list__link--phone-pink" href="#"></a></li>
+            <li class="nav-list__item"><a class="nav-list__link nav-list__link--message-pink" href="#"></a></li>
+            <li class="nav-list__item"><a class="nav-list__link nav-list__link--profile-pink" href="#"></a></li>
+        </ul>
+        <div class="sidebar__e-mail">mail@cps.com</div>
+        <div class="sidebar__phone-number">8 800 890 8900</div>
+        <ul lang="en" class="language">
+            <li class="language__item"><a class="language__link language__link--active" href="#">RU</a></li>
+            <li class="language__item"><a class="language__link" href="#">EN</a></li>
+            <li class="language__item"><a class="language__link" href="#">CH</a></li>
+        </ul>
+    </footer>
 
 </div>
 </body>

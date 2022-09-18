@@ -1,2 +1,6 @@
 .nav-list__link {
 }
+
+.nav-list__link:hover {
+    opacity: 0.7;
+}
