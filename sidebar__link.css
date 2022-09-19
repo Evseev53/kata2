@@ -13,8 +13,13 @@
 }
 
 .sidebar__link:hover {
-    opacity: 0.7;
+    opacity: 0.6;
+    transition: 0.5s;
 }
 
+.sidebar__link:not(:hover) {
+    opacity: 1;
+    transition: 0.5s;
+}
 
 
