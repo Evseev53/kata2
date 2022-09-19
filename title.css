@@ -1,15 +1,9 @@
+@import url("stylefonts.css");
+
 .title {
     margin: 0;
     margin-right: auto;
-    font-family: "TTLakes-Bold";
+    font-family: "TTLakes-Bold", sans-serif;
     padding: 0 0 0 20px;
     font-size: 28px;
-}
-
-@font-face {
-    font-family: "TTLakes-Bold";
-    font-style: normal;
-    font-weight: bold;
-    src: local("TTLakes-Bold"),
-    url(fonts/TTLakes-Bold.woff) format("woff");
 }

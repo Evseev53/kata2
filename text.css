@@ -1,10 +1,12 @@
+@import url("stylefonts.css");
+
 .text {
     padding: 0 16px 0 16px;
 }
 
 .text p {
     margin-top: 0;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", sans-serif;
 }
 
 @media screen and (min-device-width: 768px) {

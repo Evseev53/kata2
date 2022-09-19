@@ -1,12 +1,6 @@
-@font-face {
-    font-family: "TT Lakes";
-    font-style: normal;
-    font-weight: 400;
-    src: local("TT Lakes"),
-    url(fonts/TTLakes-Regular.woff) format("woff");
-}
+@import url("stylefonts.css");
 
 .sidebar__e-mail {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", sans-serif;
     font-size: 16px;
 }
