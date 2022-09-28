@@ -1,8 +1,0 @@
-.nav-list__item {
-    display: flex;
-    margin-right: 16px;
-}
-
-.nav-list__item:hover {
-    opacity: 0.7;
-}

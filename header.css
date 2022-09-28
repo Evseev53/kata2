@@ -1,9 +1,0 @@
-.header {
-    display: block;
-}
-
-@media screen and (min-device-width: 1120px) {
-    .header {
-        display: none;
-    }
-}

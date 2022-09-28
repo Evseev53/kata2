@@ -1,9 +1,0 @@
-.nav-list--display-none {
-    display: none;
-}
-
-@media screen and (min-device-width: 768px) {
-    .nav-list--display-none{
-        display: flex;
-    }
-}
