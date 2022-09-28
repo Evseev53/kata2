@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="html" lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -7,23 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
 <body class="body-sidebar">
-<div class="sidebar">
+<nav class="sidebar">
     <header class="sidebar__header">
         <ul class="nav-list header__nav-list">
             <li class="nav-list__item"><a class="nav-list__link nav-list__link--back-pink" href="#"></a></li>
-            <li class="nav-list__item nav-list__item--position--left"><a class="nav-list__link nav-list__link--logo-pink" href="#"></a></li>
+            <li class="nav-list__item nav-list__item--position--left"><a class="nav-list__link logo" href="#"></a></li>
             <li class="nav-list__item nav-list__item--position--right"><a class="nav-list__link nav-list__link--search-pink" href="#"></a></li>
         </ul>
     </header>
-    <menu class="sidebar__menu">
-        <li class="sidebar__item"><a class="sidebar__link sidebar__link--active" href="#">Ремонт техники</a></li>
-        <li class="sidebar__item"><a class="sidebar__link" href="#">Услуги и сервисы</a></li>
-        <li class="sidebar__item"><a class="sidebar__link" href="#">Корпоративным клиентам</a></li>
-        <li class="sidebar__item"><a class="sidebar__link" href="#">Продавцам техники</a></li>
-        <li class="sidebar__item"><a class="sidebar__link" href="#">Партнерам</a></li>
-        <li class="sidebar__item"><a class="sidebar__link" href="#">Производителям</a></li>
-        <li class="sidebar__item"><a class="sidebar__link" href="#">Наши сервисные центры</a></li>
-        <li class="sidebar__item"><a class="sidebar__link" href="#">Контакты</a></li>
+    <menu class="menu-vertical">
+        <li class="menu-vertical__item"><a class="menu-vertical__link menu-vertical__link--active" href="#">Ремонт техники</a></li>
+        <li class="menu-vertical__item"><a class="menu-vertical__link" href="#">Услуги и сервисы</a></li>
+        <li class="menu-vertical__item"><a class="menu-vertical__link" href="#">Корпоративным клиентам</a></li>
+        <li class="menu-vertical__item"><a class="menu-vertical__link" href="#">Продавцам техники</a></li>
+        <li class="menu-vertical__item"><a class="menu-vertical__link" href="#">Партнерам</a></li>
+        <li class="menu-vertical__item"><a class="menu-vertical__link" href="#">Производителям</a></li>
+        <li class="menu-vertical__item"><a class="menu-vertical__link" href="#">Наши сервисные центры</a></li>
+        <li class="menu-vertical__item"><a class="menu-vertical__link" href="#">Контакты</a></li>
     </menu>
     <footer class="sidebar__footer">
         <ul class="nav-list sidebar__nav-list">
@@ -31,8 +31,8 @@
             <li class="nav-list__item"><a class="nav-list__link nav-list__link--message-pink" href="#"></a></li>
             <li class="nav-list__item"><a class="nav-list__link nav-list__link--profile-pink" href="#"></a></li>
         </ul>
-        <div class="sidebar__e-mail">mail@cps.com</div>
-        <div class="sidebar__phone-number">8 800 890 8900</div>
+        <address><a class="sidebar__e-mail" href="#">mail@cps.com</a></address>
+        <address><a class="sidebar__phone-number" href="#">8 800 890 8900</a></address>
         <ul lang="en" class="language">
             <li class="language__item"><a class="language__link language__link--active" href="#">RU</a></li>
             <li class="language__item"><a class="language__link" href="#">EN</a></li>
@@ -40,6 +40,6 @@
         </ul>
     </footer>
 
-</div>
+</nav>
 </body>
 </html>

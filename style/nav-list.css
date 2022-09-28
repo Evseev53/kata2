@@ -79,7 +79,7 @@
     height: 40px;
 }
 
-.nav-list__link--logo-pink {
+.logo {
     display: block;
     background: url("../img/logo.svg");
     width: 97px;

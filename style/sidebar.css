@@ -2,15 +2,18 @@
 
 .sidebar {
     width: 320px;
-    min-height: 1024px;
+    min-height: 100%;
     box-shadow: 2px 2px 20px rgba(14, 24, 80, 0.2);
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .sidebar__e-mail {
     font-family: "TT Lakes", sans-serif;
     font-size: 16px;
+    text-decoration: none;
+    color: black;
 }
 
 .sidebar__footer {
@@ -22,43 +25,6 @@
     padding: 0 24px 0 8px;
 }
 
-.sidebar__item {
-    padding: 0 20px 27px 0;
-}
-
-.sidebar__link {
-    display: inline-block;
-    text-decoration: none;
-    white-space: nowrap;
-    line-height: 32px;
-    font-family: "TT Lakes", sans-serif;
-    font-size: 16px;
-    color: #1B1C21;
-    padding-left: 24px;
-    height: 32px;
-}
-
-.sidebar__link:hover {
-    opacity: 0.6;
-    transition: 0.5s;
-}
-
-.sidebar__link:not(:hover) {
-    opacity: 1;
-    transition: 0.5s;
-}
-
-.sidebar__link--active {
-    box-shadow: inset 4px 0 #41F6D7;
-    color: #7E7E82;
-}
-
-.sidebar__menu {
-    list-style: none;
-    padding: 0;
-    flex-grow: 1;
-}
-
 .sidebar__nav-list {
     display: flex;
     justify-content: start;
@@ -67,4 +33,6 @@
 .sidebar__phone-number {
     font-family: "TTLakes-Bold", sans-serif;
     font-size: 24px;
+    text-decoration: none;
+    color: black;
 }
