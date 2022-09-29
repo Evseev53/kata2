@@ -7,6 +7,7 @@
 @import url("style/logo-image.css");
 @import url("style/menu.css");
 @import url("style/menu-vertical.css");
+@import url("style/menu-slider.css");
 @import url("style/nav-list.css");
 @import url("style/section.css");
 @import url("style/shadow.css");
@@ -15,4 +16,5 @@
 @import url("stylefonts.css");
 @import url("style/text.css");
 @import url("style/title.css");
+@import url("style/subtitle.css");
 
