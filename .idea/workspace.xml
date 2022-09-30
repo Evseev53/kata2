@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="slider">
+      <change afterPath="$PROJECT_DIR$/style/swiper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/menu-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/menu-slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2EodesSiKc04oeHubAkWkejeQV5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\s.evseev\WebstormProjects\kata_2\style" />
+      <recent name="C:\Users\s.evseev\WebstormProjects\kata_2" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="" />
+      <created>1663265968472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663265968472</updated>
+      <workItem from="1663265969843" duration="7685000" />
+      <workItem from="1663318080804" duration="23853000" />
+      <workItem from="1663412866152" duration="11859000" />
+      <workItem from="1663427304500" duration="8168000" />
+      <workItem from="1663486837889" duration="3744000" />
+      <workItem from="1663508790520" duration="4192000" />
+      <workItem from="1663515376175" duration="11421000" />
+      <workItem from="1663571876326" duration="2044000" />
+      <workItem from="1663601671514" duration="2179000" />
+      <workItem from="1664354656734" duration="27000" />
+      <workItem from="1664364997678" duration="9160000" />
+      <workItem from="1664383578907" duration="5223000" />
+      <workItem from="1664438683122" duration="21900000" />
+      <workItem from="1664476495347" duration="1811000" />
+      <workItem from="1664521904663" duration="11000" />
+      <workItem from="1664524437946" duration="5889000" />
+      <workItem from="1664543285598" duration="17764000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1663266431777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663266431777</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1663273871833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663273871833</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Header">
+      <created>1663334714594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663334714594</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Header">
+      <created>1663342854529</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663342854531</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Header">
+      <created>1663346868288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663346868291</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Header">
+      <created>1663424933820</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663424933820</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Header">
+      <created>1663435502103</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663435502103</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sidebar">
+      <created>1663513011066</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663513011067</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sidebarOk">
+      <created>1663527013178</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663527013178</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fonts-import">
+      <created>1663573701331</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663573701333</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fonts-import">
+      <created>1663602675439</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663602675439</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1.4">
+      <created>1663603586970</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663603586970</updated>
+    </task>
+    <task id="LOCAL-00013" summary="edit_review">
+      <created>1664383218950</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664383218950</updated>
+    </task>
+    <task id="LOCAL-00014" summary="edit_review">
+      <created>1664388584677</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664388584677</updated>
+    </task>
+    <task id="LOCAL-00015" summary="slider">
+      <created>1664475802675</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664475802675</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Header" />
+    <MESSAGE value="sidebar" />
+    <MESSAGE value="sidebarOk" />
+    <MESSAGE value="fonts-import" />
+    <MESSAGE value="1.4" />
+    <MESSAGE value="edit_review" />
+    <MESSAGE value="slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="slider" />
+  </component>
+</project>
