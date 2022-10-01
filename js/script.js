@@ -1,7 +1,11 @@
 let windowInnerWidth = window.innerWidth;
 let swiperClass = document.querySelector('.swiper-wrapper');
 let swiperSlideClass = document.querySelectorAll('.swiper-slide');
-console.log(swiperSlideClass);
+let showMenuButton = document.querySelector('.text__read-more');
+let showMenuButtonSpan = showMenuButton.querySelector('span');
+let showMenuButtonImg = showMenuButton.querySelector('img');
+let menuSlider = document.querySelector('.menu-slider');
+let elemMenuSlider = menuSlider.querySelectorAll('li');
 
 
 if (windowInnerWidth < 768) {
@@ -35,16 +39,27 @@ if (windowInnerWidth < 768) {
         }
 
     });
-}
-
-if (windowInnerWidth >= 768) {
+} else {
     swiperClass.classList.remove('swiper-wrapper');
     for(let i = 0; i < swiperSlideClass.length; i++) {
         swiperSlideClass[i].classList.remove('swiper-slide');
     }
+    for(let i = 6; i < elemMenuSlider.length; i++) {
+        elemMenuSlider[i].classList.add('menu-slider--hidden');
+    }
 }
 
 window.addEventListener("resize", function () {
+    console.log(window.innerWidth);
+});
 
+showMenuButton.addEventListener("click", function () {
+    console.log('click');
+    for(let i = 6; i < elemMenuSlider.length; i++) {
+        elemMenuSlider[i].classList.remove('menu-slider--hidden');
+    }
+    let showMenu = true;
+    showMenuButtonSpan.textContent = 'Скрыть';
+    showMenuButtonImg.setAttribute('src', 'img/readmore-2.svg');
 });
 

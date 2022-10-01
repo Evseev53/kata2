@@ -36,9 +36,19 @@
     color: #FF3E79;
 }
 
+.menu-slider--hidden {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .menu-slider--flex {
         display: flex;
         flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 16px;
+    }
+
+    .menu-slider__item {
+        width: 192px;
     }
 }

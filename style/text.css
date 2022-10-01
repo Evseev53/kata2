@@ -35,3 +35,8 @@
 .text__read-more-img {
     padding-right: 16px;
 }
+
+.text__read-more--margin {
+    display: inline-block;
+    margin: 24px 0 32px 32px;
+}
