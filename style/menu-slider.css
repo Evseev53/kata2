@@ -3,6 +3,7 @@
     padding: 16px 0 0 16px;
     list-style: none;
     min-height: 114px;
+    max-width: 1120px;
 }
 
 .menu-slider__item {

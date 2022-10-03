@@ -1,5 +1,6 @@
 .swiper {
     background: #F8F8F8;
+    max-width: 1120px;
 }
 
 .swiper-pagination-bullet {

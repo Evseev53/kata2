@@ -13,3 +13,7 @@
         flex-direction: row;
     }
 }
+
+.section-menu {
+    max-width: 1120px;
+}
