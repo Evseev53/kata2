@@ -12,6 +12,7 @@ if (window.screen.width < 768) {
             el: '.swiper-pagination',
             clickable: true,
         },
+        slidesPerView: 'auto',
         spaceBetween: 18,
     });
 }
@@ -29,7 +30,8 @@ window.addEventListener("resize", function () {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            spaceBetween: 20,
+            slidesPerView: 'auto',
+            spaceBetween: 18,
         });
         swiperActive = true;
     }
@@ -49,3 +51,5 @@ showMoreButton.addEventListener('click', function () {
         document.querySelector('.brands').style.maxHeight = '170px';
     }
 });
+
+//кнопка меню бургер

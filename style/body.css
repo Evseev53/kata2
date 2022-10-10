@@ -8,7 +8,15 @@
         padding-right: 15px;
     }
 }
+
+@media screen and (min-device-width: 1440px) {
+    .body {
+        display: flex;
+    }
+}
+
 .body-sidebar {
     margin: 0;
     height: 100%;
 }
+
