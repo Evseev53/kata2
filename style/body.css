@@ -9,7 +9,7 @@
     }
 }
 
-@media screen and (min-device-width: 1440px) {
+@media screen and (min-device-width: 1120px) {
     .body {
         display: flex;
     }

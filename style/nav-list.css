@@ -71,6 +71,12 @@
     height: 40px;
 }
 
+@media screen and (min-width: 1120px){
+    .nav-list__link--back-pink {
+        display: none;
+    }
+}
+
 .nav-list__link--burger-pink {
     display: block;
     background: #FF3E79 url("../img/burger.svg") no-repeat 50% 50%;
