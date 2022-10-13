@@ -1,0 +1,26 @@
+.swiper {
+    background: #F8F8F8;
+    max-width: 1120px;
+}
+
+.swiper-slide {
+    max-width: 240px;
+}
+
+.swiper-slide:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 768px){
+    .swiper::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+        width: 30px;
+    }
+}

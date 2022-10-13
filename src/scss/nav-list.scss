@@ -1,0 +1,145 @@
+@import url("fonts.scss");
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-list--display-none {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-list--display-none{
+        display: flex;
+    }
+}
+.nav-list__divider {
+    display: none;
+    background: #EAEAEA;
+    border-radius: 1px;
+    width: 2px;
+    height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-list__divider {
+        display: flex;
+    }
+}
+
+.nav-list__item {
+    display: flex;
+    margin-right: 16px;
+}
+
+.nav-list__item:hover {
+    opacity: 0.7;
+}
+
+.nav-list__item--position--left {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.nav-list__item--position--right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.nav-list__link {
+}
+
+.nav-list__link:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.nav-list__link:not(:hover) {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.nav-list__link--back-pink {
+    display: block;
+    background: #FF3E79 url("../img/back.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (min-width: 1120px){
+    .nav-list__link--back-pink {
+        display: none;
+    }
+}
+
+.nav-list__link--burger-pink {
+    display: block;
+    background: #FF3E79 url("../img/burger.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    display: block;
+    background: url("../img/logo.svg");
+    width: 97px;
+    height: 51px;
+}
+
+.nav-list__link--message-pink {
+    display: block;
+    background: #FF3E79 url("../img/message.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-list__link--phone-pink {
+    display: block;
+    background: #FF3E79 url("../img/phone.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-list__link--profile-pink {
+    display: block;
+    background: #FF3E79 url("../img/profile.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-list__link--repair-pink {
+    display: block;
+    background: #FF3E79 url("../img/repair.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-list__link--search-pink {
+    display: block;
+    background: #FF3E79 url("../img/search.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-list__text {
+    align-self: center;
+    text-decoration: none;
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    color: #1B1C21;
+    margin-right: 8px;
+}
+
+
+

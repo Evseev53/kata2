@@ -1,0 +1,51 @@
+@import url("fonts.scss");
+
+.sidebar {
+    position: absolute;
+    background: white;
+    z-index: 3;
+    width: 320px;
+    min-height: 100%;
+    box-shadow: 2px 2px 20px rgba(14, 24, 80, 0.2);
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    min-width: 320px;
+}
+
+@media screen and (min-width: 1120px) {
+    .sidebar {
+        position: static;
+        display: flex;
+        z-index: auto;
+        box-shadow: none;
+    }
+}
+
+.sidebar__e-mail {
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar__footer {
+    flex-shrink: 0;
+    padding-left: 24px;
+}
+
+.sidebar__header {
+    padding: 0 24px 0 8px;
+}
+
+.sidebar__nav-list {
+    display: flex;
+    justify-content: start;
+}
+
+.sidebar__phone-number {
+    font-family: "TTLakes-Bold", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}

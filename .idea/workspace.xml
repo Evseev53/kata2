@@ -4,7 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="Настройка webpack. Интерактив пунктов меню. и др." />
+    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="Настройка webpack. Интерактив пунктов меню. и др.">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kata_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/comic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/CPSlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/brand-acer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/brand-apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/brand-bosch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/brand-hp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/brand-lenovo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/brand-samsung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/brand-sony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/brand-view-sonic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/dropdown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/readmore-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/readmore.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/repair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/webpack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/aside.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/brands.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/html.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/language.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/logo-image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/nav-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/read-more.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/subtitle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +103,7 @@
         </map>
       </branch-storage>
     </favorite-branches>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/webpack-static-template" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -74,6 +141,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "file.status.colors",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -140,7 +208,9 @@
       <workItem from="1665559480419" duration="5281000" />
       <workItem from="1665566614622" duration="15198000" />
       <workItem from="1665648315546" duration="3098000" />
-      <workItem from="1665657488223" duration="16911000" />
+      <workItem from="1665657488223" duration="17694000" />
+      <workItem from="1665679576486" duration="83000" />
+      <workItem from="1665679680200" duration="486000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1663266431777</created>
@@ -310,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665675190274</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Настройка webpack. Интерактив пунктов меню. и др.">
+      <created>1665679019869</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665679019870</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +451,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/webpack-static-template" />
+    </ignored-roots>
     <MESSAGE value="First commit" />
     <MESSAGE value="Header" />
     <MESSAGE value="sidebar" />
