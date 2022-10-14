@@ -1,30 +1,17 @@
+@import "variables";
+
 .header {
     display: block;
-    border-bottom: 1px solid #41F6D7;
-}
+    border-bottom: 1px solid $clr-decor;
+    padding-left: 10px;
 
-@media screen and (min-width: 1120px) {
-    .header {
+    @media screen and (min-width: $screen-xl) {
         display: none;
     }
-}
 
-.header__nav {
-}
-
-.header__nav-list {
-    margin: 0;
-    padding: 0 0 0 16px;
-    height: 88px;
-}
-
-
-.nav-list.header__nav-list {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0 0 0 16px;
-    height: 88px;
+    &__nav-list {
+        margin: 0;
+        padding: 0 0 0 16px;
+        height: 88px;
+    }
 }

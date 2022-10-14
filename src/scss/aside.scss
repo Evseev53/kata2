@@ -1,28 +1,31 @@
-.aside--content-position {
-    padding-top: 24px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    height: 40px;
-}
+@import "variables";
 
-.aside--content-position>ul {
-    display: none;
-}
+.aside {
 
-@media screen and (min-width: 1120px) {
-    .aside--content-position {
-        justify-content: space-between;
-        width: 100%;
+    &__divider {
+        background: $clr-decor;
+        width: 4px;
+        height: 40px;
     }
-    .aside--content-position>ul {
+
+    & > ul {
+        display: none;
+
+        @media screen and (min-width: $screen-xl) {
+            display: flex;
+        }
+    }
+
+    &--content-position {
+        padding-top: 24px;
         display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 40px;
+
+        @media screen and (min-width: $screen-xl) {
+            justify-content: space-between;
+            width: 100%;
+        }
     }
-
-}
-
-.aside__divider {
-    background: #41F6D7;
-    width: 4px;
-    height: 40px;
 }

@@ -1,8 +1,10 @@
+@import "variables";
+
 .subtitle {
     display: inline-block;
     font-family: "TT Lakes", sans-serif;
     font-size: 16px;
-    color: #7E7E82;
+    color: $clr-txt-active;
     text-transform: uppercase;
     padding: 16px;
 }

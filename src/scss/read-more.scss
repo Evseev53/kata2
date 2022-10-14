@@ -1,35 +1,32 @@
+@import "variables";
+
 .read-more {
     text-decoration: none;
     font-family: "TT Lakes", sans-serif;
     font-size: 16px;
     line-height: 24px;
-
     letter-spacing: -0.2px;
+    color: $clr-txt-nav;
 
-    color: #1B1C21;
-}
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
 
-.read-more:hover {
-    opacity: 0.7;
-    cursor: pointer;
-}
+    &-img {
+        padding-right: 16px;
+    }
 
-.read-more-img {
-    padding-right: 16px;
-}
-
-.read-more--margin {
-    display: inline-block;
-    margin: 24px 0 32px 32px;
-}
-
-.read-more--hidden {
-    display: none;
-}
-
-@media screen and (min-width: 768px) {
-    .read-more--hidden {
+    &--margin {
         display: inline-block;
+        margin: 24px 0 32px 32px;
+    }
+
+    &--hidden {
+        display: none;
+
+        @media screen and (min-width: $screen-md) {
+            display: inline-block;
+        }
     }
 }
-

@@ -1,48 +1,46 @@
-@import url("fonts.scss");
+@import "variables";
+@import "src/scss/fonts";
 
 .menu {
     margin: 0;
     padding: 24px 0 0 16px;
     list-style: none;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     overflow: scroll;
     min-height: 70px;
-}
 
-.menu::-webkit-scrollbar {
-    width: 0;
-}
-
-@media screen and (min-width: 1120px){
-    .menu {
+    @media screen and (min-width: $screen-xl){
         overflow: visible;
         flex-wrap: wrap;
     }
-}
 
-.menu--bg--blue {
-    background: #F8F8F8;
-}
+    &::-webkit-scrollbar {
+        width: 0;
+    }
 
-.menu__link {
-    text-decoration: none;
-    white-space: nowrap;
-    text-align: center;
-    font-family: "TT Lakes", sans-serif;
-    font-size: 16px;
-    color: #7E7E82;
+    &__link {
+        text-decoration: none;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "TT Lakes", sans-serif;
+        font-size: 16px;
+        color: $clr-txt-active;
+        padding: 8px 20px 8px 20px;
 
-    padding: 8px 20px 8px 20px;
-}
+        &:hover {
+            opacity: 0.7;
+        }
 
-.menu__link:hover {
-    opacity: 0.7;
-}
+        &--active {
+            background: $clr-bg;
+            border: 2px solid $clr-decor;
+            border-radius: 6px;
+        }
+    }
 
-.menu__link--active {
-    background: #FFFFFF;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
+    &--bg--gray {
+        background: $clr-bg-gr;
+    }
 }

@@ -1,26 +1,27 @@
-@import url("fonts.scss");
+@import "variables";
+@import "src/scss/fonts";
 
 .language {
     display: flex;
     list-style: none;
     padding: 0;
-}
 
-.language__item {
-    margin-right: 7px;
-}
+    &__item {
+        margin-right: 7px;
+    }
 
-.language__link {
-    font-family: "TT Lakes", sans-serif;
-    font-size: 16px;
-    text-decoration: none;
-    color: black;
-}
+    &__link {
+        font-family: "TT Lakes", sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+        color: $clr-txt-nav;
 
-.language__link:hover {
-    opacity: 0.7;
-}
+        &:hover {
+            opacity: 0.7;
+        }
 
-.language__link--active {
-    color: #7E7E82;
+        &--active {
+            color: $clr-txt-active;
+        }
+    }
 }

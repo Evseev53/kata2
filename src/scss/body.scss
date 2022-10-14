@@ -1,22 +1,18 @@
+@import "variables";
+
 .body {
     margin: 0;
     padding: 0;
-}
-
-@media screen and (min-width: 768px) {
-    .body {
+    @media screen and (min-width: $screen-md) {
         padding-right: 15px;
     }
-}
-
-@media screen and (min-width: 1120px) {
-    .body {
+    @media screen and (min-width: $screen-xl) {
         display: flex;
     }
 }
 
-.body-sidebar {
-    margin: 0;
-    height: 100%;
-}
+
+
+
+
 

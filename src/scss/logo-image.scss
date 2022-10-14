@@ -1,10 +1,10 @@
+@import "variables";
+
 .logo-image {
     padding: 16px 0 16px 0;
     width: 100%;
-}
 
-@media screen and (min-width: 768px) {
-    .logo-image {
+    @media screen and (min-width: $screen-md) {
         min-width: 360px;
         padding: 16px 25px 16px 0;
     }

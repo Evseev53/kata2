@@ -1,5 +1,7 @@
+@import "variables";
+
 .divider {
-    background: #EAEAEA;
+    background: $clr-divider-h;
     border-radius: 1px;
     width: 2px;
     height: 32px;
