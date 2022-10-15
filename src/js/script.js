@@ -1,9 +1,16 @@
-let cardsVisible = false; //все карточки отображаются
+let cardsBrandsVisible = false; //все карточки брендов отображаются
+let cardsServicesVisible = false; //все карточки услуг отображаются
 let textVisible = false; //весь текст отображается
-let showMoreButton = document.querySelector('.read-more');
+
+let brands = document.querySelector('.swiper-brands');
+let showMoreButtonBrands = brands.querySelector('.read-more');
+let services = document.querySelector('.swiper-services');
+let showMoreButtonServices = services.querySelector('.read-more');
+
 let readMoreButton = document.querySelector('.text__read-more');
 let swiperActive = false; //свайпер отображается
-let slider;
+let sliderBrands;
+let sliderServices;
 let buttonBurger = document.querySelector('.nav-list__link--burger-pink'); //кнопка бургер
 let sidebar = document.querySelector('.sidebar');
 let sidebarClose = document.querySelector('.nav-list__link--back-pink'); //кнопка закрыть сайдбар
@@ -12,9 +19,9 @@ let menuElem = document.querySelectorAll('.menu__link'); //пункт меню
 let text = document.querySelector('.text');
 let textP = text.querySelectorAll('p');
 
-function swiper(on) {
+function swiperBrands(on) {
     if (on) {
-        slider = new Swiper('.swiper', {
+        sliderBrands = new Swiper('.swiper-brands', {
             loop: false,
             pagination: {
                 el: '.swiper-pagination',
@@ -24,40 +31,75 @@ function swiper(on) {
             spaceBetween: 18,
         });
     } else {
-        slider.destroy();
+        sliderBrands.destroy();
+    }
+}
+
+function swiperServices(on) {
+    if (on) {
+        sliderServices = new Swiper('.swiper-services', {
+            loop: false,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            slidesPerView: 'auto',
+            spaceBetween: 18,
+        });
+    } else {
+        sliderServices.destroy();
     }
 }
 
 //при загрузке страницы включает свайпер, если <768
 if (window.innerWidth < 768) {
     swiperActive = true;
-    swiper(true);
+    swiperBrands(true);
+    swiperServices(true);
 }
 
 //вкл и выкл свайпера при ресайзе
 window.addEventListener("resize", function () {
     if (window.innerWidth >= 768 && swiperActive) {
-        swiper(false);
+        swiperBrands(false);
+        swiperServices(false);
         swiperActive = false;
         } else if (window.innerWidth < 768 && !swiperActive) {
-        cardsVisible = false;
-        swiper(true);
+        cardsBrandsVisible = false;
+        cardsServicesVisible = false;
+        swiperBrands(true);
+        swiperServices(true);
         swiperActive = true;
     }
 });
 
-//кнопка Показать всё/Скрыть
-showMoreButton.addEventListener('click', function () {
-    if (!cardsVisible) {
-        cardsVisible = true;
-        showMoreButton.querySelector('span').textContent = 'Скрыть';
-        showMoreButton.querySelector('img').setAttribute('src', 'img/readmore-2.svg');
-        document.querySelector('.brands').style.maxHeight = '600px';
+//кнопка Показать всё/Скрыть для карточек брендов
+showMoreButtonBrands.addEventListener('click', function () {
+    if (!cardsBrandsVisible) {
+        cardsBrandsVisible = true;
+        showMoreButtonBrands.querySelector('span').textContent = 'Скрыть';
+        showMoreButtonBrands.querySelector('img').setAttribute('src', 'img/readmore-2.svg');
+        brands.querySelector('.cards').style.maxHeight = '600px';
     } else {
-        cardsVisible = false;
-        showMoreButton.querySelector('span').textContent = 'Показать всё';
-        showMoreButton.querySelector('img').setAttribute('src', 'img/readmore.svg');
-        document.querySelector('.brands').style.maxHeight = '170px';
+        cardsBrandsVisible = false;
+        showMoreButtonBrands.querySelector('span').textContent = 'Показать всё';
+        showMoreButtonBrands.querySelector('img').setAttribute('src', 'img/readmore.svg');
+        brands.querySelector('.cards').style.maxHeight = '170px';
+    }
+});
+
+//кнопка Показать всё/Скрыть для карточек услуг
+showMoreButtonServices.addEventListener('click', function () {
+    if (!cardsServicesVisible) {
+        cardsServicesVisible = true;
+        showMoreButtonServices.querySelector('span').textContent = 'Скрыть';
+        showMoreButtonServices.querySelector('img').setAttribute('src', 'img/readmore-2.svg');
+        services.querySelector('.cards').style.maxHeight = '600px';
+    } else {
+        cardsServicesVisible = false;
+        showMoreButtonServices.querySelector('span').textContent = 'Показать всё';
+        showMoreButtonServices.querySelector('img').setAttribute('src', 'img/readmore.svg');
+        services.querySelector('.cards').style.maxHeight = '170px';
     }
 });
 
@@ -111,24 +153,24 @@ window.addEventListener('resize', function () {
 
 //переключение пунктов меню сайдбара
 function activeMainMenuElem(e) {
-  for(let i = 0; i < mainMenuElem.length; i++){
-    mainMenuElem[i].classList.remove('main-menu__link--active');
-  }
-  e.currentTarget.className = 'main-menu__link--active main-menu__link';
+    for(let i = 0; i < mainMenuElem.length; i++){
+        mainMenuElem[i].classList.remove('main-menu__link--active');
+    }
+    e.currentTarget.className = 'main-menu__link--active main-menu__link';
 }
 
 for(let i = 0; i < mainMenuElem.length; i++){
-  mainMenuElem[i].addEventListener('click', activeMainMenuElem, false);
+    mainMenuElem[i].addEventListener('click', activeMainMenuElem, false);
 }
 
 //переключение пунктов меню
 function activeMenuElem(e) {
-  for(let i = 0; i < menuElem.length; i++){
-    menuElem[i].classList.remove('menu__link--active');
-  }
-  e.currentTarget.className = 'menu__link--active menu__link';
+    for(let i = 0; i < menuElem.length; i++){
+        menuElem[i].classList.remove('menu__link--active');
+    }
+    e.currentTarget.className = 'menu__link--active menu__link';
 }
 
 for(let i = 0; i < menuElem.length; i++){
-  menuElem[i].addEventListener('click', activeMenuElem, false);
+    menuElem[i].addEventListener('click', activeMenuElem, false);
 }

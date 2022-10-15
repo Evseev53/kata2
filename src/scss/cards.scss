@@ -1,6 +1,7 @@
 @import "variables";
+@import "fonts";
 
-.brands {
+.cards {
     margin: 0;
     padding: 16px 0 0 16px;
     list-style: none;
@@ -30,6 +31,23 @@
         @media screen and (min-width: $screen-md) {
             width: 192px;
         }
+
+        &--high {
+            height: 160px;
+
+            & > span {
+                display: block;
+                align-self: start;
+                font-family: "TT Lakes", sans-serif;
+                color: $clr-txt-nav;
+                padding-top: 16px;
+            }
+
+            & > div {
+                align-self: end;
+                margin-bottom: 16px;
+            }
+        }
     }
 
     &__img {
@@ -52,5 +70,14 @@
 
     &--hidden {
         display: none;
+    }
+
+    &--high {
+        min-height: 228px;
+
+        @media screen and (min-width: 768px){
+            min-height: 175px;
+        }
+
     }
 }
