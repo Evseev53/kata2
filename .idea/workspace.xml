@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="SCSS">
+    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="второй свайпер (с услугами)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/brands.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/swiper.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
     </list>
@@ -168,7 +167,8 @@
       <workItem from="1665687142942" duration="363000" />
       <workItem from="1665687534641" duration="3200000" />
       <workItem from="1665745505447" duration="24519000" />
-      <workItem from="1665833127945" duration="14128000" />
+      <workItem from="1665833127945" duration="17229000" />
+      <workItem from="1665929308445" duration="15318000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1663266431777</created>
@@ -359,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665769056775</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="второй свайпер (с услугами)">
+      <created>1665852973636</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1665852973636</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,6 +447,7 @@
     <MESSAGE value="assembly-sidebar" />
     <MESSAGE value="Настройка webpack. Интерактив пунктов меню. и др." />
     <MESSAGE value="SCSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="SCSS" />
+    <MESSAGE value="второй свайпер (с услугами)" />
+    <option name="LAST_COMMIT_MESSAGE" value="второй свайпер (с услугами)" />
   </component>
 </project>

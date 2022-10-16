@@ -11,6 +11,7 @@ let readMoreButton = document.querySelector('.text__read-more');
 let swiperActive = false; //свайпер отображается
 let sliderBrands;
 let sliderServices;
+let sliderPrices;
 let buttonBurger = document.querySelector('.nav-list__link--burger-pink'); //кнопка бургер
 let sidebar = document.querySelector('.sidebar');
 let sidebarClose = document.querySelector('.nav-list__link--back-pink'); //кнопка закрыть сайдбар
@@ -51,11 +52,28 @@ function swiperServices(on) {
     }
 }
 
+function swiperPrices(on) {
+    if (on) {
+        sliderPrices = new Swiper('.swiper-prices', {
+            loop: false,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            slidesPerView: 'auto',
+            spaceBetween: 18,
+        });
+    } else {
+        sliderPrices.destroy();
+    }
+}
+
 //при загрузке страницы включает свайпер, если <768
 if (window.innerWidth < 768) {
     swiperActive = true;
     swiperBrands(true);
     swiperServices(true);
+    swiperPrices(true);
 }
 
 //вкл и выкл свайпера при ресайзе
@@ -63,12 +81,14 @@ window.addEventListener("resize", function () {
     if (window.innerWidth >= 768 && swiperActive) {
         swiperBrands(false);
         swiperServices(false);
+        swiperPrices(false);
         swiperActive = false;
         } else if (window.innerWidth < 768 && !swiperActive) {
         cardsBrandsVisible = false;
         cardsServicesVisible = false;
         swiperBrands(true);
         swiperServices(true);
+        swiperPrices(true);
         swiperActive = true;
     }
 });
@@ -143,13 +163,11 @@ sidebarClose.addEventListener('click', function () {
 //сайдбар при ресайзе
 window.addEventListener('resize', function () {
     if (window.innerWidth >= 1120) {
-        console.log(window.innerWidth)
         sidebar.style.display = 'flex';
     } else {
         sidebar.style.display = 'none';
     }
 });
-
 
 //переключение пунктов меню сайдбара
 function activeMainMenuElem(e) {
