@@ -4,9 +4,7 @@
     margin: 0 auto 0 auto;
     padding: 0;
     max-width: 1440px;
-    @media screen and (min-width: $screen-md) {
-        padding-right: 15px;
-    }
+
     @media screen and (min-width: $screen-xl) {
         display: flex;
     }

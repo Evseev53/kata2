@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="второй свайпер (с услугами)">
+    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="третий свайпер (с ценами)">
+      <change afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/offer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/swiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/text.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +171,8 @@
       <workItem from="1665687534641" duration="3200000" />
       <workItem from="1665745505447" duration="24519000" />
       <workItem from="1665833127945" duration="17229000" />
-      <workItem from="1665929308445" duration="15318000" />
+      <workItem from="1665929308445" duration="15586000" />
+      <workItem from="1666001252203" duration="22562000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1663266431777</created>
@@ -366,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665852973636</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="третий свайпер (с ценами)">
+      <created>1665948601735</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1665948601735</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,6 +459,7 @@
     <MESSAGE value="Настройка webpack. Интерактив пунктов меню. и др." />
     <MESSAGE value="SCSS" />
     <MESSAGE value="второй свайпер (с услугами)" />
-    <option name="LAST_COMMIT_MESSAGE" value="второй свайпер (с услугами)" />
+    <MESSAGE value="третий свайпер (с ценами)" />
+    <option name="LAST_COMMIT_MESSAGE" value="третий свайпер (с ценами)" />
   </component>
 </project>

@@ -1,0 +1,41 @@
+@import "variables";
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: $clr-bg-gr;
+    border-top: 1px solid $clr-decor;
+    align-items: center;
+
+    @media screen and (min-width: $screen-md) {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    &__text {
+        text-decoration: none;
+        text-align: center;
+        font-family: "TT Lakes", sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        color: $clr-txt-active;
+        padding: 16px;
+
+        @media screen and (min-width: $screen-md) {
+            flex-basis: 33%;
+        }
+
+        &:nth-child(1) {
+            @media screen and (min-width: $screen-md) {
+                text-align: left;
+            }
+        }
+
+        &:nth-child(3) {
+            @media screen and (min-width: $screen-md) {
+                text-align: right;
+            }
+        }
+    }
+}

@@ -31,6 +31,17 @@
             min-height: 200px;
             max-width: 260px;
 
+            &:not(:first-child):before {
+                @media screen and (min-width: $screen-md) {
+                    display: block;
+                    position: relative;
+                    width: 80%;
+                    border-bottom: 1px solid $clr-divider-h;
+                    content: '';
+                    left: 10%;
+                }
+            }
+
             @media screen and (min-width: $screen-md) {
                 min-width: 100%;
                 min-height: 64px;
@@ -40,6 +51,12 @@
                 opacity: 1;
             }
         }
+    }
+}
+
+.swiper-wrapper {
+    @media screen and (min-width: 768px) {
+        max-width: 1104px;
     }
 }
 
