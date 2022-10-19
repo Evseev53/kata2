@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
 <body class="body">
+<div id="sidebar" class="sidebar-container">
+    <a href="#" class="sidebar-container__area"></a>
     <nav class="sidebar">
         <header class="sidebar__header">
             <ul class="nav-list header__nav-list">
@@ -27,8 +29,8 @@
         </ul>
         <footer class="sidebar__footer">
             <ul class="nav-list sidebar__nav-list">
-                <li class="nav-list__item"><a class="nav-list__link nav-list__link--phone-pink" href="#"></a></li>
-                <li class="nav-list__item"><a class="nav-list__link nav-list__link--message-pink" href="#"></a></li>
+                <li class="nav-list__item"><a class="nav-list__link nav-list__link--phone-pink" href="#popup-call-back"></a></li>
+                <li class="nav-list__item"><a class="nav-list__link nav-list__link--message-pink" href="#popup-feedback"></a></li>
                 <li class="nav-list__item"><a class="nav-list__link nav-list__link--profile-pink" href="#"></a></li>
             </ul>
             <address><a class="sidebar__e-mail" href="#">mail@cps.com</a></address>
@@ -41,17 +43,18 @@
         </footer>
 
     </nav>
+</div>
     <div>
         <header class="header">
                 <nav class="nav header__nav">
                     <ul class="nav-list header__nav-list">
-                        <li class="nav-list__item"><a class="nav-list__link nav-list__link--burger-pink" href="#"></a></li>
+                        <li class="nav-list__item"><a class="nav-list__link nav-list__link--burger-pink" href="#sidebar"></a></li>
                         <li class="nav-list__item"><div class="divider nav-list__divider"></div></li>
                         <li class="nav-list__item nav-list__item--position--left"><a class="nav-list__link logo" href="#"></a></li>
                         <li class="nav-list__item nav-list__item--position--right">
                             <ul class="nav-list nav-list--display-none">
-                                <li class="nav-list__item"><a class="nav-list__link nav-list__link--phone-pink" href="#"></a></li>
-                                <li class="nav-list__item"><a class="nav-list__link nav-list__link--message-pink" href="#"></a></li>
+                                <li class="nav-list__item"><a class="nav-list__link nav-list__link--phone-pink" href="#popup-call-back"></a></li>
+                                <li class="nav-list__item"><a class="nav-list__link nav-list__link--message-pink" href="#popup-feedback"></a></li>
                                 <li class="nav-list__item"><a class="nav-list__link nav-list__link--profile-pink" href="#"></a></li>
                             </ul>
                         </li>
@@ -68,7 +71,6 @@
         <main>
             <section class="section">
                     <aside class="aside aside--content-position">
-                        <div class="aside__divider"></div>
                         <h1 class="title">Услуги и сервисы</h1>
                         <ul class="nav-list">
                             <li class="nav-list__item">
@@ -392,8 +394,56 @@
     </span>
         </footer>
     </div>
-    <div class="popup-feedback">
-
+    <div id="popup-feedback" class="popup-container">
+        <a href="#" class="popup-container__area"></a>
+        <div class="popup-feedback">
+        <a class="close-btn" href="#"></a>
+        <h1 class="title title--f-size--24">Обратная связь</h1>
+        <form class="form" action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <input class="form__input" size="5" placeholder="Имя" type="text" name="userName" value="">
+            </div>
+            <div>
+                <input class="form__input" size="5" placeholder="Телефон" type="tel" name="userPhone" value="">
+            </div>
+            <div>
+                <input class="form__input" size="5" placeholder="Электронная почта" type="email" name="email" value="">
+            </div>
+            <div>
+                <textarea class="form__input" placeholder="Сообщение" name="message" id="" cols="5" rows="5"></textarea>
+            </div>
+            <span class="privacy-policy">
+                Нажимая “отправить”, вы даете согласие на
+                <a class="privacy-policy__link" href="#">обработку персональных данных</a>
+                и соглашаетесь с нашей <a class="privacy-policy__link" href="#">политикой конфиденциальности</a>
+            </span>
+            <button class="form__button">
+                <span>Отправить</span>
+                <img src="img/dropdown-w.svg" alt="">
+            </button>
+        </form>
+    </div>
+    </div>
+    <div id="popup-call-back" class="popup-container">
+        <a href="#" class="popup-container__area"></a>
+        <div class="popup-call-back">
+            <a class="close-btn" href="#"></a>
+            <h1 class="title title--f-size--24">Заказать звонок</h1>
+            <form class="form" action="#" method="post" enctype="multipart/form-data">
+                <div>
+                    <input class="form__input" size="5" placeholder="Телефон" type="tel" name="userPhone" value="">
+                </div>
+                <span class="privacy-policy">
+                Нажимая “отправить”, вы даете согласие на
+                <a class="privacy-policy__link" href="#">обработку персональных данных</a>
+                и соглашаетесь с нашей <a class="privacy-policy__link" href="#">политикой конфиденциальности</a>
+                </span>
+                <button class="form__button">
+                    <span>Отправить</span>
+                    <img src="img/dropdown-w.svg" alt="">
+                </button>
+            </form>
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,45 @@
+@import "variables";
+
+.form {
+    padding: 16px;
+
+    &__input {
+        margin-bottom: 16px;
+        resize: none;
+        min-width: 95%;
+        min-height: 48px;
+        font-size: 16px;
+        border: 1px solid $clr-brand-border;
+        border-radius: 8px;
+        font-family: "TT Lakes", sans-serif;
+        color: $clr-pagination-actv;
+        padding-left: 16px;
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: space-around;
+        border: none;
+        border-radius: 16px;
+        width: 136px;
+        height: 32px;
+        background: $clr-basic;
+        margin-left: auto;
+
+        & > span {
+            display: block;
+            align-self: center;
+            color: $clr-bg;
+            font-family: "TT Lakes", sans-serif;
+            font-size: 12px;
+        }
+
+        & > img {
+            align-self: center;
+        }
+    }
+}

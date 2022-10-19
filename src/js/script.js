@@ -1,25 +1,31 @@
+//КАРТОЧКИ
+let brands = document.querySelector('.swiper-brands'); //карточки брендов
+let services = document.querySelector('.swiper-services'); //карточки услуг
 let cardsBrandsVisible = false; //все карточки брендов отображаются
 let cardsServicesVisible = false; //все карточки услуг отображаются
+let showMoreButtonBrands = brands.querySelector('.read-more'); //кнопка показа карточек брендов
+let showMoreButtonServices = services.querySelector('.read-more'); //кнопка показа карточек услуг
+
+//ТЕКСТ
 let textVisible = false; //весь текст отображается
+let readMoreButton = document.querySelector('.text__read-more'); //кнопка показа текста
 
-let brands = document.querySelector('.swiper-brands');
-let showMoreButtonBrands = brands.querySelector('.read-more');
-let services = document.querySelector('.swiper-services');
-let showMoreButtonServices = services.querySelector('.read-more');
+//СЛАЙДЕР
+let swiperActive = false; //слайдер отображается
+let sliderBrands; //слайдер для карточек брендов
+let sliderServices; //слайдер для карточек услуг
+let sliderPrices; //слайдер для карточек с ценами
 
-let readMoreButton = document.querySelector('.text__read-more');
-let swiperActive = false; //свайпер отображается
-let sliderBrands;
-let sliderServices;
-let sliderPrices;
-let buttonBurger = document.querySelector('.nav-list__link--burger-pink'); //кнопка бургер
-let sidebar = document.querySelector('.sidebar');
-let sidebarClose = document.querySelector('.nav-list__link--back-pink'); //кнопка закрыть сайдбар
-let mainMenuElem = document.querySelectorAll('.main-menu__link'); //пункт меню сайдбара
+//МЕНЮ
 let menuElem = document.querySelectorAll('.menu__link'); //пункт меню
-let text = document.querySelector('.text');
-let textP = text.querySelectorAll('p');
+let mainMenuElem = document.querySelectorAll('.main-menu__link'); //пункт меню сайдбара
 
+//ТЕКСТ
+let text = document.querySelector('.text'); //текст
+let textP = text.querySelectorAll('p'); //параграф текста
+
+
+//СВАЙПЕР
 function swiperBrands(on) {
     if (on) {
         sliderBrands = new Swiper('.swiper-brands', {
@@ -93,6 +99,9 @@ window.addEventListener("resize", function () {
     }
 });
 
+
+
+//КАРТОЧКИ
 //кнопка Показать всё/Скрыть для карточек брендов
 showMoreButtonBrands.addEventListener('click', function () {
     if (!cardsBrandsVisible) {
@@ -123,6 +132,9 @@ showMoreButtonServices.addEventListener('click', function () {
     }
 });
 
+
+
+//Отображение текста
 //кнопка Читать далее/Скрыть
 readMoreButton.addEventListener('click', function () {
     if (!textVisible) {
@@ -150,25 +162,6 @@ readMoreButton.addEventListener('click', function () {
 
 
 //САЙДБАР
-//показать сайдбар
-buttonBurger.addEventListener('click', function () {
-    sidebar.style.display = 'flex';
-});
-
-//скрыть сайдбар
-sidebarClose.addEventListener('click', function () {
-    sidebar.style.display = 'none';
-});
-
-//сайдбар при ресайзе
-window.addEventListener('resize', function () {
-    if (window.innerWidth >= 1120) {
-        sidebar.style.display = 'flex';
-    } else {
-        sidebar.style.display = 'none';
-    }
-});
-
 //переключение пунктов меню сайдбара
 function activeMainMenuElem(e) {
     for(let i = 0; i < mainMenuElem.length; i++){
@@ -181,6 +174,8 @@ for(let i = 0; i < mainMenuElem.length; i++){
     mainMenuElem[i].addEventListener('click', activeMainMenuElem, false);
 }
 
+
+//МЕНЮ
 //переключение пунктов меню
 function activeMenuElem(e) {
     for(let i = 0; i < menuElem.length; i++){

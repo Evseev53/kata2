@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="третий свайпер (с ценами)">
-      <change afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/offer.scss" afterDir="false" />
+    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="1.6 готов кроме модалок">
+      <change afterPath="$PROJECT_DIR$/src/scss/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/privacy-policy.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/aside.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/sidebar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/swiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,9 @@
       <workItem from="1665745505447" duration="24519000" />
       <workItem from="1665833127945" duration="17229000" />
       <workItem from="1665929308445" duration="15586000" />
-      <workItem from="1666001252203" duration="22562000" />
+      <workItem from="1666001252203" duration="25026000" />
+      <workItem from="1666093185182" duration="20575000" />
+      <workItem from="1666182294067" duration="10860000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1663266431777</created>
@@ -377,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665948601735</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="1.6 готов кроме модалок">
+      <created>1666030655015</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1666030655016</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,6 +470,19 @@
     <MESSAGE value="SCSS" />
     <MESSAGE value="второй свайпер (с услугами)" />
     <MESSAGE value="третий свайпер (с ценами)" />
-    <option name="LAST_COMMIT_MESSAGE" value="третий свайпер (с ценами)" />
+    <MESSAGE value="1.6 готов кроме модалок" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.6 готов кроме модалок" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/js/script.js</url>
+          <line>28</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

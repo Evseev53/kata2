@@ -1,0 +1,14 @@
+@import "variables";
+
+.privacy-policy {
+    display: block;
+    font-family: "TT Lakes", sans-serif;
+    font-size: 14px;
+    color: $clr-txt-active;
+    padding-bottom: 23px;
+
+    &__link {
+        text-decoration: none;
+        color: $clr-basic;
+    }
+}
