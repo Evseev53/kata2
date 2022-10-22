@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="1.6 готов кроме модалок">
-      <change afterPath="$PROJECT_DIR$/src/scss/form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/privacy-policy.scss" afterDir="false" />
+    <list default="true" id="3b81e5dd-757a-457d-babd-132d4cbeb467" name="Changes" comment="модалки готовы. +Переделал сайдбар в модалку">
+      <change afterPath="$PROJECT_DIR$/src/js/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/menuItemActive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/readMoreButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/variables.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/aside.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/sidebar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +29,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -113,12 +116,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/script.js" working-dir="$PROJECT_DIR$/src/js">
+    <configuration name="cards.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/cards.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.script.js" />
+        <item itemvalue="Node.js.cards.js" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +178,10 @@
       <workItem from="1665929308445" duration="15586000" />
       <workItem from="1666001252203" duration="25026000" />
       <workItem from="1666093185182" duration="20575000" />
-      <workItem from="1666182294067" duration="10860000" />
+      <workItem from="1666182294067" duration="21417000" />
+      <workItem from="1666267419510" duration="13247000" />
+      <workItem from="1666351690830" duration="19601000" />
+      <workItem from="1666417459929" duration="17572000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1663266431777</created>
@@ -387,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666030655016</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="модалки готовы. +Переделал сайдбар в модалку">
+      <created>1666195197893</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1666195197893</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,18 +484,7 @@
     <MESSAGE value="второй свайпер (с услугами)" />
     <MESSAGE value="третий свайпер (с ценами)" />
     <MESSAGE value="1.6 готов кроме модалок" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.6 готов кроме модалок" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/js/script.js</url>
-          <line>28</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="модалки готовы. +Переделал сайдбар в модалку" />
+    <option name="LAST_COMMIT_MESSAGE" value="модалки готовы. +Переделал сайдбар в модалку" />
   </component>
 </project>

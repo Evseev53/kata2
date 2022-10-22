@@ -15,8 +15,8 @@
         color: $clr-pagination-actv;
         padding-left: 16px;
 
-        &:focus-visible {
-            outline: none;
+        &:focus {
+            outline: 1px solid $clr-decor;
         }
     }
 
@@ -29,6 +29,10 @@
         height: 32px;
         background: $clr-basic;
         margin-left: auto;
+
+        &:hover {
+            opacity: 0.7;
+        }
 
         & > span {
             display: block;

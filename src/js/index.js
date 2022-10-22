@@ -1,4 +1,7 @@
 import '../scss/style.scss';
-import '../js/script.js';
+import './cards.js';
+import '../js/menuItemActive.js';
+import '../js/readMoreButton.js';
+import '../js/popup.js';
 
 console.log('Works!');
