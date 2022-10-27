@@ -1,3 +1,9 @@
+//МОДАЛКИ
+let popupContainer = document.querySelector('.popup-container');
+let popupFeedback = document.querySelector('.popup-feedback');
+let inputInFeedback = popupFeedback.querySelectorAll('.form__input');  //первый инпут в модалке
+
+
 //автофокус при открытии модалки
 let button = document.querySelector('.nav-list__link--message-pink');
 

@@ -1,29 +1,31 @@
-import * as variables from './variables';
-
+//ТЕКСТ
+let text = document.querySelector('.text'); //текст
+let textP = text.querySelectorAll('p'); //параграф текста
+let readMoreButton = document.querySelector('.text__read-more'); //кнопка показа текста
 let textVisible = false; //весь текст отображается
 
 //Отображение текста
 //кнопка Читать далее/Скрыть
 //отображается разное количество текста в зависимости от ширины окна
-variables.readMoreButton.addEventListener('click', function () {
+readMoreButton.addEventListener('click', function () {
     if (!textVisible) {
-        for (let i = 0; i < variables.textP.length; i++) {
-            variables.textP[i].style.display = 'inline-block';
+        for (let i = 0; i < textP.length; i++) {
+            textP[i].style.display = 'inline-block';
         }
         textVisible = true;
-        variables.readMoreButton.querySelector('span').textContent = 'Скрыть';
-        variables.readMoreButton.querySelector('img').setAttribute('src', 'img/readmore-2.svg');
+        readMoreButton.querySelector('span').textContent = 'Скрыть';
+        readMoreButton.querySelector('img').setAttribute('src', 'img/readmore-2.svg');
     } else {
         textVisible = false;
-        variables.readMoreButton.querySelector('span').textContent = 'Читать далее';
-        variables.readMoreButton.querySelector('img').setAttribute('src', 'img/readmore.svg');
+        readMoreButton.querySelector('span').textContent = 'Читать далее';
+        readMoreButton.querySelector('img').setAttribute('src', 'img/readmore.svg');
         if (window.innerWidth < 768) {
-            for (let i = 1; i < variables.textP.length; i++) {
-                variables.textP[i].style.display = 'none';
+            for (let i = 1; i < textP.length; i++) {
+                textP[i].style.display = 'none';
             }
         } else {
-            for (let i = 2; i < variables.textP.length; i++) {
-                variables.textP[i].style.display = 'none';
+            for (let i = 2; i < textP.length; i++) {
+                textP[i].style.display = 'none';
             }
         }
     }

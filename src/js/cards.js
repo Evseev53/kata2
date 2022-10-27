@@ -1,124 +1,35 @@
-import * as variables from './variables';
-import Swiper from '../../node_modules/swiper/swiper-bundle.js';
-
-
-//СЛАЙДЕР
-let swiperActive = false; //слайдер отображается
-let sliderBrands; //слайдер для карточек брендов
-let sliderServices; //слайдер для карточек услуг
-let sliderPrices; //слайдер для карточек с ценами
+//КАРТОЧКИ
+let brands = document.querySelector('.swiper-brands'); //карточки брендов
+let services = document.querySelector('.swiper-services'); //карточки услуг
+let showMoreButtonBrands = brands.querySelector('.read-more'); //кнопка показа карточек брендов
+let showMoreButtonServices = services.querySelector('.read-more'); //кнопка показа карточек услуг
 
 //отображение карточек брендов
-let cardsBrandsVisible = false; //все карточки брендов отображаются
-let cardsServicesVisible = false; //все карточки услуг отображаются
-
-
-//СЛАЙДЕР
-function swiperBrands(on) {
-    if (on) {
-        sliderBrands = new Swiper('.swiper-brands', {
-            loop: false,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            slidesPerView: 'auto',
-            spaceBetween: 18,
-        });
-    } else {
-        sliderBrands.destroy();
-    }
-}
-
-function swiperServices(on) {
-    if (on) {
-        sliderServices = new Swiper('.swiper-services', {
-            loop: false,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            slidesPerView: 'auto',
-            spaceBetween: 18,
-        });
-    } else {
-        sliderServices.destroy();
-    }
-}
-
-function swiperPrices(on) {
-    if (on) {
-        sliderPrices = new Swiper('.swiper-prices', {
-            loop: false,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            slidesPerView: 'auto',
-            spaceBetween: 18,
-        });
-    } else {
-        sliderPrices.destroy();
-    }
-}
-
-//при загрузке страницы включает свайпер, если <768
-if (window.innerWidth < 768) {
-    swiperActive = true;
-    swiperBrands(true);
-    swiperServices(true);
-    swiperPrices(true);
-}
-
-//вкл и выкл свайпера при ресайзе
-window.addEventListener("resize", function () {
-    if (window.innerWidth >= 768 && swiperActive) {
-        swiperBrands(false);
-        swiperServices(false);
-        swiperPrices(false);
-        swiperActive = false;
-    } else if (window.innerWidth < 768 && !swiperActive) {
-        cardsBrandsVisible = false;
-        cardsServicesVisible = false;
-        swiperBrands(true);
-        swiperServices(true);
-        swiperPrices(true);
-        swiperActive = true;
-    }
-});
-
-
+export let cardsBrandsVisible = {visible: false}; //все карточки брендов отображаются
+export let cardsServicesVisible = {visible: false}; //все карточки услуг отображаются
 
 //КАРТОЧКИ
-//кнопка Показать всё/Скрыть для карточек брендов
-variables.showMoreButtonBrands.addEventListener('click', function () {
-    if (!cardsBrandsVisible) {
-        cardsBrandsVisible = true;
-        variables.showMoreButtonBrands.querySelector('span').textContent = 'Скрыть';
-        variables.showMoreButtonBrands.querySelector('img').setAttribute('src', 'img/readmore-2.svg');
-        variables.brands.querySelector('.cards').style.maxHeight = '600px';
+//показать/скрыть
+function showCards (cardsVisible, showMoreButton, cardsContainer) {
+    showMoreButton.addEventListener('click', function(){
+    if (!cardsVisible) {
+        cardsVisible = true;
+        showMoreButton.querySelector('span').textContent = 'Скрыть';
+        showMoreButton.querySelector('img').style.transform = 'rotate(180deg)';
+        cardsContainer.querySelector('.cards').style.maxHeight = '600px';
     } else {
-        cardsBrandsVisible = false;
-        variables.showMoreButtonBrands.querySelector('span').textContent = 'Показать всё';
-        variables.showMoreButtonBrands.querySelector('img').setAttribute('src', 'img/readmore.svg');
-        variables.brands.querySelector('.cards').style.maxHeight = '170px';
+        cardsVisible = false;
+        showMoreButton.querySelector('span').textContent = 'Показать всё';
+        showMoreButton.querySelector('img').style.transform = 'rotate(360deg)';
+        cardsContainer.querySelector('.cards').style.maxHeight = '170px';
     }
 });
+};
 
-//кнопка Показать всё/Скрыть для карточек услуг
-variables.showMoreButtonServices.addEventListener('click', function () {
-    if (!cardsServicesVisible) {
-        cardsServicesVisible = true;
-        variables.showMoreButtonServices.querySelector('span').textContent = 'Скрыть';
-        variables.showMoreButtonServices.querySelector('img').setAttribute('src', 'img/readmore-2.svg');
-        variables.services.querySelector('.cards').style.maxHeight = '600px';
-    } else {
-        cardsServicesVisible = false;
-        variables.showMoreButtonServices.querySelector('span').textContent = 'Показать всё';
-        variables.showMoreButtonServices.querySelector('img').setAttribute('src', 'img/readmore.svg');
-        variables.services.querySelector('.cards').style.maxHeight = '170px';
-    }
-});
+showCards(cardsBrandsVisible.visible, showMoreButtonBrands, brands);
+showCards(cardsServicesVisible.visible, showMoreButtonServices, services);
+
+
 
 
 
