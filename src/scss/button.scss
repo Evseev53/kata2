@@ -1,0 +1,94 @@
+@import "variables";
+
+.button {
+    border: none;
+
+    &:hover {
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+
+    &:not(:hover) {
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    &--back-pink {
+        display: block;
+        background: $clr-basic url("../img/back.svg") no-repeat 50% 50%;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+
+        @media screen and (min-width: $screen-xl) {
+            display: none;
+        }
+    }
+
+    &--burger-pink {
+        display: block;
+        background: $clr-basic url("../img/burger.svg") no-repeat 50% 50%;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    &--message-pink {
+        display: block;
+        background: $clr-basic url("../img/message.svg") no-repeat 50% 50%;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    &--phone-pink {
+        display: block;
+        background: $clr-basic url("../img/phone.svg") no-repeat 50% 50%;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    &--profile-pink {
+        display: block;
+        background: $clr-basic url("../img/profile.svg") no-repeat 50% 50%;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    &--repair-pink {
+        display: block;
+        background: $clr-basic url("../img/repair.svg") no-repeat 50% 50%;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    &--search-pink {
+        display: block;
+        background: $clr-basic url("../img/search.svg") no-repeat 50% 50%;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.close-btn {
+    display: block;
+    background: $clr-basic url("../img/back.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 40px 16px;
+    border: none;
+
+    @media screen and (min-width: $screen-md) {
+        position: absolute;
+        left: -80px;
+    }
+
+    &:hover {
+        opacity: 0.7;
+    }
+}

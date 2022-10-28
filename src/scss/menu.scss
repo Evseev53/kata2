@@ -14,6 +14,7 @@
     @media screen and (min-width: $screen-xl){
         overflow: visible;
         flex-wrap: wrap;
+        min-height: 110px;
     }
 
     &::-webkit-scrollbar {

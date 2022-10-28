@@ -12,18 +12,18 @@ export let cardsServicesVisible = {visible: false}; //все карточки у
 //показать/скрыть
 function showCards (cardsVisible, showMoreButton, cardsContainer) {
     showMoreButton.addEventListener('click', function(){
-    if (!cardsVisible) {
-        cardsVisible = true;
-        showMoreButton.querySelector('span').textContent = 'Скрыть';
-        showMoreButton.querySelector('img').style.transform = 'rotate(180deg)';
-        cardsContainer.querySelector('.cards').style.maxHeight = '600px';
-    } else {
-        cardsVisible = false;
-        showMoreButton.querySelector('span').textContent = 'Показать всё';
-        showMoreButton.querySelector('img').style.transform = 'rotate(360deg)';
-        cardsContainer.querySelector('.cards').style.maxHeight = '170px';
-    }
-});
+        if (!cardsVisible) {
+            cardsVisible = true;
+            showMoreButton.querySelector('span').textContent = 'Скрыть';
+            showMoreButton.querySelector('img').style.transform = 'rotate(180deg)';
+            cardsContainer.querySelector('.cards').style.maxHeight = '600px';
+        } else {
+            cardsVisible = false;
+            showMoreButton.querySelector('span').textContent = 'Показать всё';
+            showMoreButton.querySelector('img').style.transform = 'rotate(360deg)';
+            cardsContainer.querySelector('.cards').style.maxHeight = '170px';
+        }
+    });
 };
 
 showCards(cardsBrandsVisible.visible, showMoreButtonBrands, brands);

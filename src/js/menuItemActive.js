@@ -15,7 +15,6 @@ for(let i = 0; i < menuElem.length; i++) {
     menuElem[i].addEventListener('click', activeMenuElem, false);
 }
 
-
 //САЙДБАР
 //переключение пунктов меню сайдбара
 function activeMainMenuElem(e) {

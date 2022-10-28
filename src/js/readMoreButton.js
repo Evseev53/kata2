@@ -14,11 +14,11 @@ readMoreButton.addEventListener('click', function () {
         }
         textVisible = true;
         readMoreButton.querySelector('span').textContent = 'Скрыть';
-        readMoreButton.querySelector('img').setAttribute('src', 'img/readmore-2.svg');
+        readMoreButton.querySelector('img').style.transform = 'rotate(180deg)';
     } else {
         textVisible = false;
         readMoreButton.querySelector('span').textContent = 'Читать далее';
-        readMoreButton.querySelector('img').setAttribute('src', 'img/readmore.svg');
+        readMoreButton.querySelector('img').style.transform = 'rotate(360deg)';
         if (window.innerWidth < 768) {
             for (let i = 1; i < textP.length; i++) {
                 textP[i].style.display = 'none';

@@ -4,7 +4,23 @@
     display: inline-block;
     font-family: "TT Lakes", sans-serif;
     font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
     color: $clr-txt-active;
     text-transform: uppercase;
     padding: 16px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.subtitle-container {
+    display: inline-block;
+    width: 100%;
+    content: '';
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
 }

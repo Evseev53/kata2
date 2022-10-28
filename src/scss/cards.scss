@@ -66,17 +66,17 @@
                 padding: 0;
             }
 
-            & > span {
+            & > .cards__span {
                 color: $clr-txt-nav;
                 font-family: "TT Lakes", sans-serif;
                 font-size: 14px;
             }
 
-            & > span:nth-child(1) {
+            & > .cards__span:nth-child(1) {
                 flex-basis: 40%;
             }
 
-            & > span:nth-child(1):before {
+            & > .cards__span:nth-child(1):before {
                 display: block;
                 content: $txt-first-column;
                 color: $clr-txt-active;
@@ -88,7 +88,7 @@
                 }
             }
 
-            & > span:nth-child(2):before {
+            & > .cards__span:nth-child(2):before {
                 display: block;
                 content: $txt-second-column;
                 color: $clr-txt-active;
@@ -100,7 +100,7 @@
                 }
             }
 
-            & > span:nth-child(3):before {
+            & > .cards__span:nth-child(3):before {
                 display: block;
                 content: $txt-third-column;
                 color: $clr-txt-active;
@@ -123,11 +123,11 @@
                 background: $clr-bg-gr;
             }
 
-            & > span {
+            & > .cards__span {
                 color: $clr-txt-active;
             }
 
-            & > span:nth-child(1) {
+            & > .cards__span:nth-child(1) {
                 flex-basis: 40%;
             }
 
@@ -169,7 +169,7 @@
                 opacity: 0.7;
             }
 
-            & > span {
+            & > .cards__span {
                 font-family: "TT Lakes", sans-serif;
                 font-size: 12px;
                 line-height: 24px;

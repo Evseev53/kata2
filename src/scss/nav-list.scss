@@ -39,78 +39,6 @@
         }
     }
 
-    &__link {
-        &:hover {
-            opacity: 0.6;
-            transition: 0.5s;
-        }
-
-        &:not(:hover) {
-            opacity: 1;
-            transition: 0.5s;
-        }
-
-        &--back-pink {
-            display: block;
-            background: $clr-basic url("../img/back.svg") no-repeat 50% 50%;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-
-            @media screen and (min-width: $screen-xl) {
-                display: none;
-            }
-        }
-
-        &--burger-pink {
-            display: block;
-            background: $clr-basic url("../img/burger.svg") no-repeat 50% 50%;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-        }
-
-        &--message-pink {
-            display: block;
-            background: $clr-basic url("../img/message.svg") no-repeat 50% 50%;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-        }
-
-        &--phone-pink {
-            display: block;
-            background: $clr-basic url("../img/phone.svg") no-repeat 50% 50%;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-        }
-
-        &--profile-pink {
-            display: block;
-            background: $clr-basic url("../img/profile.svg") no-repeat 50% 50%;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-        }
-
-        &--repair-pink {
-            display: block;
-            background: $clr-basic url("../img/repair.svg") no-repeat 50% 50%;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-        }
-
-        &--search-pink {
-            display: block;
-            background: $clr-basic url("../img/search.svg") no-repeat 50% 50%;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-        }
-    }
-
     &__text {
         align-self: center;
         text-decoration: none;
@@ -127,11 +55,4 @@
             display: flex;
         }
     }
-}
-
-.logo {
-    display: block;
-    background: url("../img/logo.svg");
-    width: 97px;
-    height: 51px;
 }
