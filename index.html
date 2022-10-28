@@ -7,13 +7,12 @@
 <link href="style.css" rel="stylesheet"></head>
 <body class="body">
 <div id="sidebar" class="sidebar-container">
-    <a href="#" class="sidebar-container__area"></a>
     <nav class="sidebar">
         <header class="sidebar__header">
             <ul class="nav-list header__nav-list">
-                <li class="nav-list__item"><a class="nav-list__link nav-list__link--back-pink" href="#"></a></li>
+                <li class="nav-list__item"><button class="button button--back-pink"></button></li>
                 <li class="nav-list__item nav-list__item--position--left"><a class="nav-list__link logo" href="#"></a></li>
-                <li class="nav-list__item nav-list__item--position--right"><a class="nav-list__link nav-list__link--search-pink" href="#"></a></li>
+                <li class="nav-list__item nav-list__item--position--right"><button class="button button--search-pink"></button></li>
             </ul>
         </header>
         <ul class="main-menu">
@@ -28,9 +27,9 @@
         </ul>
         <footer class="sidebar__footer">
             <ul class="nav-list sidebar__nav-list">
-                <li class="nav-list__item"><a class="nav-list__link nav-list__link--phone-pink" href="#popup-call-back"></a></li>
-                <li class="nav-list__item"><a class="nav-list__link nav-list__link--message-pink" href="#popup-feedback"></a></li>
-                <li class="nav-list__item"><a class="nav-list__link nav-list__link--profile-pink" href="#"></a></li>
+                <li class="nav-list__item"><button class="button button--phone-pink popup-link"></button></li>
+                <li class="nav-list__item"><button class="button button--message-pink popup-link"></button></li>
+                <li class="nav-list__item"><button class="button button--profile-pink"></button></li>
             </ul>
             <address><a class="sidebar__e-mail" href="#">mail@cps.com</a></address>
             <address><a class="sidebar__phone-number" href="#">8 800 890 8900</a></address>
@@ -47,21 +46,21 @@
         <header class="header">
                 <nav class="nav header__nav">
                     <ul class="nav-list header__nav-list">
-                        <li class="nav-list__item"><a class="nav-list__link nav-list__link--burger-pink" href="#sidebar"></a></li>
+                        <li class="nav-list__item"><button class="button button--burger-pink"></button></li>
                         <li class="nav-list__item"><div class="divider nav-list__divider"></div></li>
                         <li class="nav-list__item nav-list__item--position--left"><a class="nav-list__link logo" href="#"></a></li>
                         <li class="nav-list__item nav-list__item--position--right">
                             <ul class="nav-list nav-list--display-none">
-                                <li class="nav-list__item"><a class="nav-list__link nav-list__link--phone-pink" href="#popup-call-back"></a></li>
-                                <li class="nav-list__item"><a class="nav-list__link nav-list__link--message-pink" href="#popup-feedback"></a></li>
-                                <li class="nav-list__item"><a class="nav-list__link nav-list__link--profile-pink" href="#"></a></li>
+                                <li class="nav-list__item"><button class="button button--phone-pink popup-link"></button></li>
+                                <li class="nav-list__item"><button class="button button--message-pink popup-link"></button></li>
+                                <li class="nav-list__item"><button class="button button--profile-pink"></button></li>
                             </ul>
                         </li>
                         <li>
                             <ul class="nav-list">
                                 <li class="nav-list__item"><div class="divider"></div></li>
-                                <li class="nav-list__item"><a class="nav-list__link nav-list__link--repair-pink" href="#"></a></li>
-                                <li class="nav-list__item"><a class="nav-list__link nav-list__link--search-pink" href="#"></a></li>
+                                <li class="nav-list__item"><button class="button button--repair-pink"></button></li>
+                                <li class="nav-list__item"><button class="button button--search-pink"></button></li>
                             </ul>
                         </li>
                     </ul>
@@ -69,23 +68,23 @@
             </header>
         <main>
             <section class="section">
-                    <aside class="aside aside--content-position">
+                    <nav class="nav-request nav-request--content-position">
                         <h1 class="title">Услуги и сервисы</h1>
-                        <ul class="nav-list">
+                        <ul class="nav-list nav-request__list">
                             <li class="nav-list__item">
                                 <a class="nav-list__text" href="#">
                                     Оставить заявку
-                                    <a class="nav-list__link nav-list__link--repair-pink" href="#"></a>
+                                    <a class="button button--repair-pink" href="#"></a>
                                 </a>
                             </li>
                             <li class="nav-list__item">
                                 <a class="nav-list__text" href="#">
                                     Статус ремонта
-                                    <a class="nav-list__link nav-list__link--search-pink" href="#"></a>
+                                    <a class="button button--search-pink" href="#"></a>
                                 </a>
                             </li>
                         </ul>
-                    </aside>
+                    </nav>
                 </section>
             <menu class="menu menu--bg--gray">
                     <li><a class="menu__link menu__link--active" href="#">Ремонтируемые бренды</a></li>
@@ -96,28 +95,28 @@
                     <li><a class="menu__link" href="#">Отзывы</a></li>
                 </menu>
             <section class="section section--direction--column">
-                    <aside class="aside">
+                    <section class="nav-request">
                         <div class="text">
-                            <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+                            <p class="text__p">Мы являемся авторизованным сервисным центром по ремонту техники Dell.
                                 Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
 
-                            <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
+                            <p class="text__p">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
                                 что подтверждает большое количество постоянных клиентов.
                                 Мы гордимся тем, что к нам обращаются по рекомендациям и,
                                 в свою очередь, советуют нас родным и близким.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus explicabo in maiores
+                            <p class="text__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus explicabo in maiores
                                 nemo unde. Deleniti, excepturi fugiat neque nostrum quae quod sapiente similique unde?
                                 Aliquid laborum laudantium obcaecati quam recusandae.</p>
                             <a class="text__read-more" href="#">
                               <img class="text__read-more-img" src="img/readmore.svg" alt="">
-                              <span>Читать далее</span>
+                              <span class="text__span">Читать далее</span>
                             </a>
                         </div>
-                    </aside>
+                    </section>
                     <img class="logo-image" src="img/CPSlogo.png" alt="">
                 </section>
             <section class="section-cards">
-                <span class="subtitle">Ремонт техники различных брендов</span>
+                <div class="subtitle-container"><h2 class="subtitle">Ремонт техники различных брендов</h2></div>
                 <div class="swiper swiper-brands">
                         <ul class="cards cards--flex swiper-wrapper">
                             <li class="swiper-slide">
@@ -211,13 +210,13 @@
                         </ul>
                         <a class="read-more read-more--margin read-more--hidden">
                             <img class="read-more-img" src="img/readmore.svg" alt="">
-                            <span>Показать всё</span>
+                            <span class="read-more__span">Показать всё</span>
                         </a>
                         <div class="swiper-pagination"></div>
                     </div>
             </section>
             <section class="section-cards">
-                <span class="subtitle">Ремонт различных видов техники</span>
+                <div class="subtitle-container"><h2 class="subtitle">Ремонт различных видов техники</h2></div>
                 <div class="swiper swiper-services">
                     <ul class="cards cards--high cards--flex swiper-wrapper">
                         <li class="swiper-slide">
@@ -295,74 +294,74 @@
                     </ul>
                     <a class="read-more read-more--margin read-more--hidden">
                         <img class="read-more-img" src="img/readmore.svg" alt="">
-                        <span>Показать всё</span>
+                        <span class="read-more__span">Показать всё</span>
                     </a>
                     <div class="swiper-pagination"></div>
                 </div>
             </section>
             <section class="section-cards">
-                <span class="subtitle">Цены на услуги</span>
+                <div class="subtitle-container"><h2 class="subtitle">Цены на услуги</h2></div>
                 <div class="swiper swiper-prices">
                     <ul class="cards cards--high-xl swiper-wrapper">
                         <li>
                             <div class="cards__item cards__item--high-xl cards__item--hat">
-                                <span>Ремонтные услуги</span>
-                                <span>Цена</span>
-                                <span>Срок</span>
+                                <span class="cards__span">Ремонтные услуги</span>
+                                <span class="cards__span">Цена</span>
+                                <span class="cards__span">Срок</span>
                                 <div></div>
                             </div>
                         </li>
                         <li class="swiper-slide swiper-slide--high-xl">
                             <div class="cards__item cards__item--high-xl">
-                                <span>Тестирование с выдачей технического заключения</span>
-                                <span>Бесплатно</span>
-                                <span>30 мин</span>
+                                <span class="cards__span">Тестирование с выдачей технического заключения</span>
+                                <span class="cards__span">Бесплатно</span>
+                                <span class="cards__span">30 мин</span>
                                 <a class="cards__icon cards__icon--oblong" href="#">
-                                    <span>Заказать</span>
+                                    <span class="cards__span">Заказать</span>
                                     <img src="img/dropdown-w.svg" alt="">
                                 </a>
                             </div>
                         </li>
                         <li class="swiper-slide swiper-slide--high-xl">
                             <div class="cards__item cards__item--high-xl">
-                                <span>Замена дисплея</span>
-                                <span>1 000 &#x20BD;</span>
-                                <span>30-120 мин</span>
+                                <span class="cards__span">Замена дисплея</span>
+                                <span class="cards__span">1 000 &#x20BD;</span>
+                                <span class="cards__span">30-120 мин</span>
                                 <a class="cards__icon cards__icon--oblong" href="#">
-                                    <span>Заказать</span>
+                                    <span class="cards__span">Заказать</span>
                                     <img src="img/dropdown-w.svg" alt="">
                                 </a>
                             </div>
                         </li>
                         <li class="swiper-slide swiper-slide--high-xl">
                             <div class="cards__item cards__item--high-xl">
-                                <span>Замена полифонического динамика</span>
-                                <span>1 000 &#x20BD;</span>
-                                <span>30-120 мин</span>
+                                <span class="cards__span">Замена полифонического динамика</span>
+                                <span class="cards__span">1 000 &#x20BD;</span>
+                                <span class="cards__span">30-120 мин</span>
                                 <a class="cards__icon cards__icon--oblong" href="#">
-                                    <span>Заказать</span>
+                                    <span class="cards__span">Заказать</span>
                                     <img src="img/dropdown-w.svg" alt="">
                                 </a>
                             </div>
                         </li>
                         <li class="swiper-slide swiper-slide--high-xl">
                             <div class="cards__item cards__item--high-xl">
-                                <span>Диагностика</span>
-                                <span>1 000 &#x20BD;</span>
-                                <span>30-120 мин</span>
+                                <span class="cards__span">Диагностика</span>
+                                <span class="cards__span">1 000 &#x20BD;</span>
+                                <span class="cards__span">30-120 мин</span>
                                 <a class="cards__icon cards__icon--oblong" href="#">
-                                    <span>Заказать</span>
+                                    <span class="cards__span">Заказать</span>
                                     <img src="img/dropdown-w.svg" alt="">
                                 </a>
                             </div>
                         </li>
                         <li class="swiper-slide swiper-slide--high-xl">
                             <div class="cards__item cards__item--high-xl">
-                                <span>Замена программного обеспечения</span>
-                                <span>1 000 &#x20BD;</span>
-                                <span>30-120 мин</span>
+                                <span class="cards__span">Замена программного обеспечения</span>
+                                <span class="cards__span">1 000 &#x20BD;</span>
+                                <span class="cards__span">30-120 мин</span>
                                 <a class="cards__icon cards__icon--oblong" href="#">
-                                    <span>Заказать</span>
+                                    <span class="cards__span">Заказать</span>
                                     <img src="img/dropdown-w.svg" alt="">
                                 </a>
                             </div>
@@ -393,8 +392,7 @@
         </footer>
     </div>
     <div id="popup-feedback" class="popup-container">
-        <a href="#" class="popup-container__area"></a>
-        <div class="popup-feedback">
+        <div class="popup-feedback popup-content">
         <a class="close-btn" href="#"></a>
         <h1 class="title title--f-size--24">Обратная связь</h1>
         <form class="form" action="#" method="post" enctype="multipart/form-data">
@@ -423,17 +421,16 @@
                 <a class="privacy-policy__link" href="#">обработку персональных данных</a>
                 и соглашаетесь с нашей <a class="privacy-policy__link" href="#">политикой конфиденциальности</a>
             </span>
-            <button class="form__button">
-                <span>Отправить</span>
-                <img src="img/dropdown-w.svg" alt="">
+            <button class="form-button">
+                <span class="form-button__span">Отправить</span>
+                <img class="form-button__img" src="img/dropdown-w.svg" alt="">
             </button>
         </form>
     </div>
     </div>
     <div id="popup-call-back" class="popup-container">
-        <a href="#" class="popup-container__area"></a>
-        <div class="popup-call-back">
-            <a class="close-btn" href="#"></a>
+        <div class="popup-call-back popup-content">
+            <button class="close-btn"></button>
             <h1 class="title title--f-size--24">Заказать звонок</h1>
             <form class="form" action="#" method="post" enctype="multipart/form-data">
                 <div>
@@ -444,9 +441,9 @@
                 <a class="privacy-policy__link" href="#">обработку персональных данных</a>
                 и соглашаетесь с нашей <a class="privacy-policy__link" href="#">политикой конфиденциальности</a>
                 </span>
-                <button class="form__button">
-                    <span>Отправить</span>
-                    <img src="img/dropdown-w.svg" alt="">
+                <button class="form-button">
+                    <span class="form-button__span">Отправить</span>
+                    <img class="form-button__img" src="img/dropdown-w.svg" alt="">
                 </button>
             </form>
         </div>
